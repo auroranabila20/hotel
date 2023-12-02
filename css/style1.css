@@ -1,0 +1,51 @@
+/* style.css */
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #ff0000;
+}
+
+h1 {
+  background-color: #1a11ca;
+  color: rgb(95, 11, 11);
+  padding: 10px;
+}
+
+#hotel-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hotel-card {
+  width: 300px;
+  background-color: rgb(234, 127, 14);
+  border: 1px solid #cf3d3d;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(53, 58, 56, 0.1);
+}
+
+.hotel-name {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.hotel-description {
+  margin: 10px 0;
+}
+
+.hotel-price {
+  color: #0d00ff;
+  margin-top: 10px;
+}
+
+.hotel-image {
+  max-width: 100%;
+  height: auto;
+}
